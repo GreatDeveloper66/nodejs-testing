@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-testing",
+  "version": "1.0.0",
+  "description": "Repository for nojejs testing course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreatDeveloper66/nodejs-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "chai",
+    "npm",
+    "node"
+  ],
+  "author": "Adam Shaffer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreatDeveloper66/nodejs-testing/issues"
+  },
+  "homepage": "https://github.com/GreatDeveloper66/nodejs-testing#readme"
+}
