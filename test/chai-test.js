@@ -7,5 +7,13 @@ describe('chai test', () => {
     })
     it('should test some other stuff', () => {
         expect({name:'foo'}).to.deep.equal({name: 'foo'})
+        expect({name: 'foo'}).to.have.property('name').to.equal('foo')
+        expect((5 > 8)).to.be.false
+        expect('foo').to.be.a('string')
+        expect(3).to.be.a('number')
+        expect('bar').to.be.a('string').with.lengthOf(3)
+        expect(undefined).to.not.exist
+
+
     })
 })
