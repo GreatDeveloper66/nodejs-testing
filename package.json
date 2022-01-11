@@ -24,5 +24,8 @@
   "homepage": "https://github.com/GreatDeveloper66/nodejs-testing#readme",
   "dependencies": {
     "mocha": "^9.1.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4"
   }
 }
