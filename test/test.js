@@ -8,6 +8,9 @@ describe('file to be tested', () => {
         after (() => {
             console.log('=============after=================')
         })
+        beforEach(() => {
+            console.log('==============beforeEach================')
+        })
         it('should do something', () => {
             assert.equal(1,1)
         })
