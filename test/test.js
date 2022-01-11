@@ -5,6 +5,9 @@ describe('file to be tested', () => {
         before(() => {
             console.log('========before=========')
         })
+        after (() => {
+            console.log('=============after=================')
+        })
         it('should do something', () => {
             assert.equal(1,1)
         })
