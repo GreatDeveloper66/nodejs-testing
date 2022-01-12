@@ -14,7 +14,7 @@ describe('chai test', () => {
         expect('bar').to.be.a('string').with.lengthOf(3)
         expect(undefined).to.not.exist
         expect(null).to.be.null
-
+        expect(3 + 8).to.equal(11)
 
     })
 })
