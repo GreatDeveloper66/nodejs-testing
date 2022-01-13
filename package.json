@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/GreatDeveloper66/nodejs-testing#readme",
   "dependencies": {
+    "cross-env": "^7.0.3",
     "mocha": "^9.1.3"
   },
   "devDependencies": {
