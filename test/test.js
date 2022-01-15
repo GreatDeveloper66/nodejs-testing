@@ -25,6 +25,10 @@ describe('file to be tested', () => {
             assert.equal('hello','hello')
         })
 
+        it('should test numbers', () => {
+            assert.equal(4, 2  + 2)
+        })
+
         it('this is a pending test')
     })
     context('another function',() => {
