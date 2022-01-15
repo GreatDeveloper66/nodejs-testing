@@ -21,6 +21,10 @@ describe('file to be tested', () => {
             assert.deepEqual({name: 'Joe'},{name: 'Joe'})
         })
 
+        it('should do something else more', () => {
+            assert.equal('hello','hello')
+        })
+
         it('this is a pending test')
     })
     context('another function',() => {
